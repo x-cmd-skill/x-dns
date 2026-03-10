@@ -109,5 +109,4 @@ x dns refresh
 
 ## Related
 
-- [Back to x-cmd Skill](../../SKILL.md)
 - [x-cmd dns module](https://x-cmd.com/mod/dns)
