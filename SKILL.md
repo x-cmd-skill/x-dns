@@ -5,15 +5,15 @@ description: |
   View current DNS settings, list available DNS servers,
   and refresh DNS cache on the system.
   
-  **Requires x-cmd**: Use x-cmd skill to install and use x-cmd,
-  see https://x-cmd.com/llms.txt . Note: load x-cmd with `. ~/.x-cmd.root/X` before use.
+  **Dependency**: This is an x-cmd module. Install x-cmd first (see x-cmd skill for installation options).
+  see x-cmd skill for installation.
 
 license: Apache-2.0
 compatibility: POSIX Shell
 
 metadata:
   author: Li Junhao
-  version: "0.0.1"
+  version: "1.0.0"
   category: x-cmd-extension
   tags: [x-cmd, network, dns, configuration]
 ---
@@ -109,4 +109,3 @@ x dns refresh
 
 ## Related
 
-- [x-cmd dns module](https://x-cmd.com/mod/dns)
